@@ -16,15 +16,14 @@ The aim of the project is to create a basic simplified version of a NFT staking 
 ## Basic work flow of the app-
  * A user connects their phantom wallet to the app.
  * Display the NFTs present in the users wallet (do not show other spl-tokens).
- * The user selects the NFTs to stake and clicks on STAKE button.
- * Send a transaction on approval of which the NFTs should be transferred  to  **[PDA](https://solanacookbook.com/core-concepts/pdas.html)** account owned by your smart contract.
-
+ * The user selects the NFTs to stake, inputs a **nic** (if staking for the first time)   and clicks on STAKE button.
+ * Send a transaction on approval of which the NFTs should be transferred  to  **[PDA](https://solanacookbook.com/core-concepts/pdas.html)** account owned by the smart contract.
 >  The NFTs of each user should be stored under different PDAs.
-
- *  For each NFT staked, the user should receive a fixed number of spl-token per day.
+ * Also store the **nic**, **number of NFTs currently staked** and the **time at which the user last staked/unstaked** in the account of the user through the same transaction.
  * The currently staked NFTs should be shown to the user.
- * Provide the user the ability to UNSTAKE the staked NFTs.
- * Thus the smart contract should have the following functions for performing the tasks-
+ * Provide the user the ability to **UNSTAKE** the staked NFTs.
+ * Thus the smart contract should have the following functions for performing the tasks-	
+	 * create_user_acc
 	* stake_nft
 	* unstake_nft
 ## Additional materials-
