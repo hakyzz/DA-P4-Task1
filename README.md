@@ -1,5 +1,5 @@
 
-# Doge Academy - Phase 3 - Task 3
+# Doge Academy - Phase 4 - Task 1
 Through the tasks provided so far in phase 3 we have looked at the use of basic libraries like **@solana/web3.js @metaplex-foundation/js @solana/spl-token @solana/wallet-adapter-react**. Now it is time to start exploring and developing solana smart contracts of your own.
 * You would want to touch up on basics of [**RUST**](https://youtu.be/-AAtfPHEMbA) as we would be developing smart contracts using it.
 * We will be making use of solana framework [**ANCHOR**](https://www.anchor-lang.com/) as it helps avoid boilerplate code and in developing secure programs.
