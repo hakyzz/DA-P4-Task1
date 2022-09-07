@@ -19,7 +19,7 @@ The aim of the project is to create a basic simplified version of a NFT staking 
  * The user selects the NFTs to stake, inputs a **username** (if staking for the first time)   and clicks on STAKE button.
  * Send a transaction on approval of which the NFTs should be transferred  to  **[PDA](https://solanacookbook.com/core-concepts/pdas.html)** account owned by the smart contract.
 >  The NFTs of each user should be stored under different PDAs.
- * Also store the **username**, **number of NFTs currently staked** and the **time at which the user last staked/unstaked** in the account of the user through the same transaction.
+ * Also store the **username**, **number of NFTs currently staked** and the **time at which the user last staked/unstaked** in an onchain account.
  * The currently staked NFTs should be shown to the user.
  * Provide the user the ability to **UNSTAKE** the staked NFTs.
  * Thus the smart contract should have the following functions for performing the tasks-	
