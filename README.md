@@ -25,7 +25,7 @@ The aim of the project is to create a basic simplified version of a NFT staking 
  * This reward should be transferred to the user's wallet when he clicks on a CLAIM button.
  * The currently staked NFTs and reward left to be claimed should be shown to the user.
  * Provide the user the ability to UNSTAKE the staked NFTs.
- * Thus the smart contract should have  the following functions for performing the tasks-
+ * Thus the smart contract should have  the following functions four performing the tasks-
 	* stake_nft
 	* claim_reward
 	* unstake_nft
